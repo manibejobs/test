@@ -1,5 +1,5 @@
 ---
   - hosts: web
     tasks:
-    - name: copy the hosts file
+    - name: copy hosts file
       copy: src=/etc/ansible/hosts dest=/tmp
