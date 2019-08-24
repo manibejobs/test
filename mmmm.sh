@@ -1,2 +1,2 @@
 echo `git --version`
-escho `date`
+echo `date`
