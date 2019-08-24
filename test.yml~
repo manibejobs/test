@@ -1,7 +1,0 @@
----
-  - hosts: web
-    tasks:
-     - name: copy the file
-       copy: 
-         src:/etc/ansible/hosts 
-         dest:/root
